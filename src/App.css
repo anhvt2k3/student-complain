@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.App > .Card {
+  background-color: grey;
+  color: white;
+
+  max-width: 20%;
+  border-radius: 6px;
+  font-size: 10px;
+  padding: 10px;
+  text-align: left;
+  margin: 5px;
+  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.Card > p {
+  padding: 0;
+  margin: 5px;
+}
+
+.Card > .Institution {
+  font-size: large;
+}
+
+.Card > .Reports {
+
+}
+
+.Card > .Age {
+
+}
+
+.Card > .Gpa {
+
+}
+
+.Card > .Year {
+
+}
+
+.Card > .Gender {
+
+}
